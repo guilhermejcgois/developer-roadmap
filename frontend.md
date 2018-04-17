@@ -8,22 +8,22 @@ This file contains the frontend roadmap translated in the checklist form to make
 
 First thing that you would want to do is learn the basics which includes learning the basics of HTML, CSS and some familiarization with JavaScript syntax. 
 
-- [ ] Learn the basics of HTML
-  - [ ] Learn the basics and how to write semantic HTML
-  - [ ] Understand how to divide page into sections and to structure the DOM properly
+- [x] Learn the basics of HTML
+  - [x] Learn the basics and how to write semantic HTML
+  - [x] Understand how to divide page into sections and to structure the DOM properly
   - [ ] **Task** Make at least 5 HTML pages – focus on structure, don't worry about the *beauty* yet
-- [ ] Learn the basics of CSS
-  - [ ] Learn the basics of CSS
-  - [ ] Learn how to use Grid and Flexbox
+- [x] Learn the basics of CSS
+  - [x] Learn the basics of CSS
+  - [x] Learn how to use Grid and Flexbox
   - [ ] Media queries and how to make responsive websites
   - [ ] Understand CSS Specificity, Box-Model etc
   - [ ] **Task** Style the HTML pages that you made in last step
-- [ ] Basics of JavaScript
-  - [ ] Learn the syntax and the basic constructs
-  - [ ] Learn how to manipulate DOM
-  - [ ] Understand the concepts such as hoisting, event bubbling, prototypes etc
-  - [ ] Learn Ajax (XHR)
-  - [ ] Learn new features in ES6+ and how to write modular JavaScript
+- [x] Basics of JavaScript
+  - [x] Learn the syntax and the basic constructs
+  - [x] Learn how to manipulate DOM
+  - [x] Understand the concepts such as hoisting, event bubbling, prototypes etc
+  - [x] Learn Ajax (XHR)
+  - [x] Learn new features in ES6+ and how to write modular JavaScript
 - [ ] Learn jQuery – **Optional (you can leave it for now and revisit later)**
 
 ## Step 2 – Practice what you have learnt!
@@ -47,9 +47,9 @@ Link this repo and tell them you are learning and ask for feedback on your PR an
 
 NPM and Yarn both are almost same in usage; you can learn one of them and you automatically learn the other.
 
-- [ ] Learn how to use NPM
-- [ ] Learn how to use Yarn
-- [ ] Understand Semantic Versioning
+- [x] Learn how to use NPM
+- [x] Learn how to use Yarn
+- [x] Understand Semantic Versioning
 - [ ] **Task** Install some external library using yarn or npm into the webpages that you made previously
 
 ## Step 5 – Learn CSS Preprocessors
@@ -57,7 +57,7 @@ NPM and Yarn both are almost same in usage; you can learn one of them and you au
 Preprocessors enrich CSS with the functionality that it isn’t capable of by default. There are different many options Sass, Less, Stylus etc. If I were to pick one, I would go for Sass. However, PostCSS has been gaining a lot of traction lately, it is a nice-to-have and is sort of “Babel” for CSS. You can use it stand-alone or on top of Sass also. I would recommend you to learn Sass for now and revisit PostCSS later when you have time.
 
 - [ ] Pick one of these
-  - [ ] **Sass (Recommended)**
+  - [x] **Sass (Recommended)**
   - [ ] Less
   - [ ] **PostCSS (do this later)**
   - [ ] Stylus
@@ -66,7 +66,7 @@ Preprocessors enrich CSS with the functionality that it isn’t capable of by de
 
 This used to be way up in the chart, but I moved it down below as they aren't really needed any more and can be mastered without much effort. If you would want to pick any, there is one under every rock. The ones that I liked the most among the ones that I tried are Bootstrap, Materialize and Bulma. But if you look at their demand in market I would pick Bootstrap if I was starting today.
 
-- [ ] **Bootstrap (Recommended)**
+- [x] **Bootstrap (Recommended)**
 - [ ] Materialize CSS
 - [ ] Bulma
 
@@ -74,7 +74,7 @@ This used to be way up in the chart, but I moved it down below as they aren't re
 
 As your applications grow, CSS start to become messy and unmaintainable. There are multiple ways to structure your CSS better for scalability
 
-- [ ] **BEM – Recommended**
+- [x] **BEM – Recommended**
 - [ ] OOCSS
 - [ ] SMACSS
 - [ ] SUITCSS
@@ -86,8 +86,8 @@ These are the tools that help you in bundling, building and development of your 
 
 There used to be alot of stuff in the task runners but today I would just pick NPM scripts, however if you want to pick something else, have a look at gulp
 
-- [ ] **NPM Scripts (Recommended)**
-- [ ] Gulp
+- [x] **NPM Scripts (Recommended)**
+- [x] Gulp
 
 There are several linters, but I would go for ESLint. Feel free to have a look at others and see why one over the other
 
@@ -106,9 +106,9 @@ There are several linters, but I would go for ESLint. Feel free to have a look a
 
 Go to Github and Have a look at the source code of libraries that people have made, pick an idea and make some library with the below listed requirements
 
-- [ ] It should use Sass for styling
-- [ ] It should be written in ES6
-- [ ] It should be a UMD library
+- [x] It should use Sass for styling
+- [x] It should be written in ES6
+- [x] It should be a UMD library
 - [ ] It should be using Babel to allow usage in older browsers
 
 ## Step 10 – Learn any Framework
@@ -116,9 +116,9 @@ Go to Github and Have a look at the source code of libraries that people have ma
 There are several options, when it comes to frameworks. However, below listed frameworks are the ones that I would recommend. You can pick any of them, however if you ask me for the personal picks I would choose React or Angular. However, have a look at any of them and see what you like
 
 - [ ] **React**
-  - [ ] Redux - For large scale apps and can be used outside react also
+  - [x] Redux - For large scale apps and can be used outside react also
   - [ ] Mobx - For smaller apps and can be used outside react also
-- [ ] **Angular (Important – Learn Angular 2+)**
+- [x] **Angular (Important – Learn Angular 2+)**
   - [ ] Rx.js – Is really powerful can be used out of angular also
   - [ ] Ngrx
 - [ ] Vue.js
@@ -140,8 +140,8 @@ Here is a really nice summary to get you started – [An Overview of JavaScript 
 
 - [ ] **Jest**
 - [ ] **Mocha**
-- [ ] **Protractor**
-- [ ] **Karma**
+- [x] **Protractor**
+- [x] **Karma**
 - [ ] **Enzyme**
 
 ## Step 14 – Progressive Webapps
@@ -152,7 +152,7 @@ Learn about Service Workers and how to make Progressive Webapps
 
 Static type checkers help you to add type checking to JavaScript. You don’t need to learn these but they really give you superpowers and can be learnt in a few hours and then you can keep . There is mainly TypeScript and Flow. I love TypeScript and would pick it but feel free to check both and pick one of your liking.
 
-- [ ] **TypeScript (Recommended)**
+- [x] **TypeScript (Recommended)**
 - [ ] Flow
 
 ## Step 16 – Learn about Server Side Rendering
